@@ -1,0 +1,23 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //formatação de Strings e de números
+
+        nome = window.prompt('Digite seu nome');
+
+        
+        n1 = Number(window.prompt('Digite um número'));
+
+
+        document.writeln(`Olá ${nome.toUpperCase()} seu nome tem ${nome.length} letras e esse é o seu número:${n1.toFixed(2).replace('.',',')} e em reais fica ${n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+    
+    </script>
+    
+</body>
+</html>
