@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -22,9 +23,11 @@
         p1 = window.document.getElementsByTagName('p')[0];
         p1.style.color = "red";
         window.document.write('Está escrito assi:' + p1.innerText);
-        d = document.getElementsById('msg')
+        /*d = document.getElementById('msg')[0]
         d.style.background = "green"
-        d.innerText = "Estou aguardando..."
+        d.innerText = "Estou aguardando..."*/
+        d = window.document.querySelector('div#msg')
+        d.style.background = 'blue'
     </script>
 </body>
 </html>
