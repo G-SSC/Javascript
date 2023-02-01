@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Concatenação/TamplateString</title>
     <style>
         body
             {
@@ -15,9 +15,18 @@
 </head>
 <body>
     <script>
-        window.alert('minha primeira msng')
-        window.confirm('Está gostando do JS?')
-        window.prompt('Me fale sue nome')
+        nome = 'js';
+        tempo = 100;
+        custo = 500;
+        
+        //Concatenado
+        window.alert('O curso ' + nome + ' tem ' + tempo + ' horas de duração e custa R$' + custo )
+        
+        //TemplateString
+        window.alert(`O curso ${nome} tem ${tempo} horas de duração e custa R$${custo}`);
+
+
+
     </script>
 </body>
 </html>
