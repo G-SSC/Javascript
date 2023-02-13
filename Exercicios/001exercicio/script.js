@@ -4,7 +4,7 @@ function carregar()
     msg = window.document.getElementById('msg');
     img = window.document.getElementById('img');
     agora = new Date();
-    time = 20;
+    time = 15;
     msg.innerHTML = `Agora são ${time} horas.`;
     if(time>=6 && time<12)
         {
