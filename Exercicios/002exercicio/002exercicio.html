@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,19 +13,26 @@
     </header>
     <main>
         <section>
-            <p>Ano de nascimento:</p>
-            <input type="text" name="idade" id="idade"/>
-            <br>
-            Sexo: <input type="checkbox" name="" id=""> <input type="checkbox" name="" id="">
-            <br>
-            <input type="button" value="">
-            <div id="resp"></div>
-            <div id="foto">
-                <img id="img" src="imagens/noite.jpg" alt="Foto de Dia">
+            <div>
+                <p>
+                    Ano de nascimento:
+                    <input type="text" name="txtidade" id="txtidade" min="0"/>
+                </p>
+                <p>
+                    Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <input type="radio" name="radsex" id="fem">
+                </p>
+                <br>
+                <input type="button" value="verficar" onclick="verificar()">
+            </div>
+            <div id="resp">
+                Preencha os dados a cima para ver o resultado.
             </div>
 
         </section>
     </main>
-    <footer></footer>
+    <footer>Gcruz G-SSC</footer>
+    <script src="script.js"></script>
 </body>
 </html>
