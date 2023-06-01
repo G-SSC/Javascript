@@ -8,9 +8,9 @@ function verificar()
     res.innerHTML = `Contando`
     if(ini>0)  
         {
-        for(c = ini; c <= ; c++)
+        for(c = ini; c <= fim ; c++)
             {
-            res.innerHTML = cdes
+            res.innerHTML = 
             }
         }
     }
